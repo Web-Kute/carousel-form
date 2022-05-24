@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <!--   <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"> -->
+  <title>Carousel Form</title>
+</head>
+
+<body>
+  <section id="carousel__container" aria-label="Slider">
+    <div id="logo">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="111.000000pt" height="120.000000pt" viewBox="0 0 111.000000 120.000000" preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,120.000000) scale(0.100000,-0.100000)" fill="#DA2E35" stroke="none">
+          <path d="M516 1103 c-44 -12 -398 -207 -411 -226 -20 -29 -22 -528 -2 -566 8
+            -15 81 -60 207 -129 259 -140 234 -140 485 -4 105 56 198 112 208 124 15 18
+            17 48 17 294 0 248 -2 276 -18 292 -9 9 -102 61 -205 116 -180 94 -233 113
+            -281 99z m-6 -176 c0 -51 -7 -59 -102 -111 l-67 -37 -50 26 c-28 14 -51 29
+            -51 33 0 9 239 131 258 131 8 1 12 -14 12 -42z m239 -18 c64 -34 119 -64 123
+            -68 4 -4 -16 -19 -45 -35 l-52 -28 -82 47 -83 46 0 50 c0 31 4 49 12 49 6 0
+            63 -27 127 -61z m-130 -157 c57 -32 57 -34 -16 -71 l-42 -21 -56 27 c-30 15
+            -55 30 -55 33 0 7 92 59 106 60 6 0 34 -13 63 -28z m-329 -168 l0 -101 -40
+            -16 c-22 -8 -42 -12 -45 -8 -2 5 -2 67 2 138 l6 130 38 -21 39 -21 0 -101z
+            m630 1 l0 -145 -45 22 -45 22 0 103 0 103 38 19 c20 11 40 20 45 21 4 0 7 -65
+            7 -145z m-487 19 c59 -30 67 -42 67 -106 0 -32 -4 -58 -8 -58 -4 0 -29 13 -55
+            30 l-47 30 0 60 c0 33 2 60 5 60 4 0 20 -7 38 -16z m297 -44 c0 -59 0 -60 -41
+            -85 -70 -45 -69 -45 -69 29 l0 66 48 24 c26 14 50 25 55 26 4 0 7 -27 7 -60z
+            m-315 -198 l80 -48 3 -57 3 -58 -53 30 c-29 16 -93 52 -142 79 l-89 50 49 26
+            c27 14 54 25 59 25 6 0 46 -21 90 -47z m419 22 c25 -14 46 -29 46 -33 0 -5
+            -225 -134 -262 -149 -4 -2 -8 21 -8 50 l0 54 88 51 c48 28 88 52 88 52 1 1 22
+            -11 48 -25z" />
+        </g>
+      </svg>
+    </div>
+    <div class="carousel-subtext">
+      <h2>WordPress developper</h2>
+    </div>
+    <div class="carousel__container-left">
+      <figure id="carousel__slide1">
+        <img srcset="https://picsum.photos/320/320 320w,
+		                     https://picsum.photos/502/500 480w" sizes="(min-width: 600px) 480px" src="https://picsum.photos/499/500" alt="WeeKube, developper WordPress">
+        <a href="#" class="carousel__prev" title="Go to previous slide"><span class="tooltip" data-text="Go to previous slide"></span></a>
+        <a href="#carousel__slide2" class="carousel__next" title="Go to next slide"><span class="tooltip" data-text="Go to next slide"></span></a>
+        <figcaption class="carousel-text">
+          What light through yonder window breaks?
+          <span>It is the east, and Juliet is the sun.</span>
+        </figcaption>
+      </figure>
+      <figure id="carousel__slide2">
+        <img srcset="https://picsum.photos/320/320 320w,
+		                     https://picsum.photos/500/500 480w" sizes="(min-width: 600px) 480px" src="https://picsum.photos/500/500" alt="WeeKube, developper WordPress">
+        <a href="#carousel__slide1" class="carousel__prev" title="Go to previous slide"><span class="tooltip" data-text="Go to previous slide"></span></a>
+        <a href="#carousel__slide3" class="carousel__next" title="Go to next slide"><span class="tooltip" data-text="Go to next slide"></span></a>
+        <figcaption class="carousel-text">
+          It matters not what someone is born,
+          <span>but what they grow to be.</span>
+        </figcaption>
+      </figure>
+      <figure id="carousel__slide3">
+        <img srcset="https://picsum.photos/320/320 320w,
+		                     https://picsum.photos/501/500 480w" sizes="(min-width: 600px) 480px" src="https://picsum.photos/501/500" alt="WeeKube, developper WordPress">
+        <a href="#carousel__slide2" class="carousel__prev" title="Go to previous slide"><span class="tooltip" data-text="Go to previous slide"></span></a>
+        <a href="#" class="carousel__next" title="Go to next slide" data-text="Go to next slide"><span class="tooltip" data-text="Go to next slide"></span></a>
+        <figcaption class="carousel-text">
+          I have a Dream
+          <span>What for? Because I can</span>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="carousel__container-right">
+      <h2 class="right-title">Création ou refonte&nbsp;?</h2>
+      <h3>Comment pouvons-nous vous aider&nbsp;?</h3>
+      <form action="#" method="post">
+        <div class="info">
+          <input placeholder="Nom" type="text" id="name" name="user_name" required>
+        </div>
+        <div class="info">
+          <input placeholder="Email" type="email" id="mail" name="user_mail" required>
+        </div>
+        <div>
+          <label for="msg"></label>
+          <textarea name="comment" id="msg" rows="7" minlength="10" maxlength="240" placeholder="Message"></textarea><br>
+        </div>
+        <input type="submit" id="submit" value="Envoyer">
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
+
+
