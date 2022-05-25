@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   scrollbar-color: transparent transparent;
   /* remove track */
   scrollbar-width: none;
@@ -28,12 +28,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: wheat;
   font-family: "Roboto Slab", serif;
   line-height: 1.2;
@@ -75,9 +75,9 @@ a {
   width: 800px;
   height: 500px;
   -webkit-filter: drop-shadow(0 0 10px #888);
-  filter: drop-shadow(0 0 10px #888);
+          filter: drop-shadow(0 0 10px #888);
   -webkit-perspective: 100px;
-  perspective: 100px;
+          perspective: 100px;
 }
 
 #carousel__container #logo,
@@ -89,13 +89,13 @@ a {
   position: relative;
   display: none;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 62.5%;
-  flex: 0 0 62.5%;
+      -ms-flex: 0 0 62.5%;
+          flex: 0 0 62.5%;
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
   -ms-scroll-snap-type: x mandatory;
-  scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
 }
 
 #carousel__container .carousel__container-left .carousel-text {
@@ -121,11 +121,11 @@ a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0 35px;
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
@@ -139,6 +139,7 @@ a {
   letter-spacing: -2px;
   line-height: 1;
   color: #010;
+  margin: 0;
 }
 
 .carousel__container-right h3 {
@@ -146,6 +147,7 @@ a {
   letter-spacing: 3px;
   line-height: 1;
   margin-bottom: 1.6rem;
+  margin-top: 0;
   color: #888;
 }
 
@@ -184,7 +186,7 @@ a {
   border-radius: 5px;
   cursor: pointer;
   -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 
 .carousel__container-right input[id="submit"]:hover {
@@ -224,11 +226,11 @@ a {
   top: 2px;
   left: 50%;
   -webkit-transform: translatex(-50%);
-  transform: translatex(-50%);
+          transform: translatex(-50%);
   font-size: 2rem;
   color: white;
   -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 
 .carousel__prev:hover::before {
@@ -259,11 +261,11 @@ a {
   top: 2px;
   left: 50%;
   -webkit-transform: translatex(-50%);
-  transform: translatex(-50%);
+          transform: translatex(-50%);
   font-size: 2rem;
   color: white;
   -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
+          transition-duration: 500ms;
 }
 
 .carousel__next:hover::before {
@@ -299,7 +301,7 @@ figure:nth-child(3) a:last-of-type:hover::before {
     top: -25px;
     left: 0;
     -webkit-transform: scale(0.4);
-    transform: scale(0.4);
+            transform: scale(0.4);
     z-index: 2;
   }
   #carousel__container .carousel-subtext {
