@@ -113,7 +113,7 @@ a {
 
   h2 {
     font-size: 1.8rem;
-    letter-spacing: -2px;
+    letter-spacing: 0;
     line-height: 1;
     color: $blackColor;
     margin: 0;
@@ -271,6 +271,11 @@ figure {
 
     .carousel__container-left {
       display: flex;
+    }
+    .carousel__container-right {
+      h2 {
+        letter-spacing: -2px;
+      }
     }
   }
 }

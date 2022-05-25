@@ -169,7 +169,7 @@ a {
 
 .carousel__container-right h2 {
   font-size: 1.8rem;
-  letter-spacing: -2px;
+  letter-spacing: 0;
   line-height: 1;
   color: #010;
   margin: 0;
@@ -342,6 +342,9 @@ figure:nth-child(3) a:last-of-type:hover::before {
   }
   #carousel__container .carousel__container-left {
     display: flex;
+  }
+  #carousel__container .carousel__container-right h2 {
+    letter-spacing: -2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
