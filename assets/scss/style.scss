@@ -206,9 +206,9 @@ a {
   &::before {
     content: "\002190";
     position: absolute;
-    top: 2px;
+    top: 50%;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translate(-50%, -50%);
     font-size: 2rem;
     color: white;
     transition-duration: 500ms;
@@ -229,9 +229,9 @@ a {
   &::before {
     content: "\002192";
     position: absolute;
-    top: 2px;
+    top: 50%;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translate(-50%, -50%);
     font-size: 2rem;
     color: white;
     transition-duration: 500ms;

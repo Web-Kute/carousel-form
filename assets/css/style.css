@@ -223,10 +223,10 @@ a {
 .carousel__prev::before {
   content: "\002190";
   position: absolute;
-  top: 2px;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translatex(-50%);
-          transform: translatex(-50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 2rem;
   color: white;
   -webkit-transition-duration: 500ms;
@@ -258,10 +258,10 @@ a {
 .carousel__next::before {
   content: "\002192";
   position: absolute;
-  top: 2px;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translatex(-50%);
-          transform: translatex(-50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 2rem;
   color: white;
   -webkit-transition-duration: 500ms;
