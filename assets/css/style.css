@@ -1,60 +1,59 @@
 @font-face {
   font-family: "Roboto Thin";
-  src: url("/fonts/Roboto/Roboto/Roboto-Thin.ttf") format("truetype");
+  src: url("assets/fonts/Roboto/Roboto/Roboto-Thin.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto Regular";
-  src: url("/fonts/Roboto/Roboto/Roboto-Regular.ttf") format("truetype");
+  src: url("assets/fonts/Roboto/Roboto/Roboto-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto Light";
-  src: url("/fonts/Roboto/Roboto/Roboto-Light.ttf") format("truetype");
+  src: url("assets/fonts/Roboto/Roboto/Roboto-Light.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto Slab Thin";
-  src: url("/fonts/Roboto/Roboto_Slab/static/RobotoSlab-Thin.ttf") format("truetype");
+  src: url("assets/fonts/Roboto/Roboto_Slab/static/RobotoSlab-Thin.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto Slab Regular";
-  src: url("/fonts/Roboto/Roboto_Slab/static/RobotoSlab-Regular.ttf") format("truetype");
+  src: url("assets/fonts/Roboto/Roboto_Slab/static/RobotoSlab-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Roboto Slab Medium";
-  src: url("/fonts/Roboto/Roboto_Slab/static/RobotoSlab-Medium.ttf") format("truetype");
+  src: url("assets/fonts/Roboto/Roboto_Slab/static/RobotoSlab-Medium.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Playfair_Display Regular";
-  src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf") format("truetype");
+  src: url("assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Playfair_Display SemiBold";
-  src: url("/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf") format("truetype");
+  src: url("assets/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Playfair_Display Medium";
-  src: url("/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf") format("truetype");
+  src: url("assets/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf") format("truetype");
   font-display: swap;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scrollbar-color: transparent transparent;
   /* remove track */
   scrollbar-width: none;
@@ -78,16 +77,10 @@
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: wheat;
   font-family: "Roboto Slab Regular", serif;
   line-height: 1.2;
@@ -124,15 +117,11 @@ a {
 
 #carousel__container {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 800px;
   height: 500px;
-  -webkit-filter: drop-shadow(0 0 10px #888);
-          filter: drop-shadow(0 0 10px #888);
-  -webkit-perspective: 100px;
-          perspective: 100px;
+  filter: drop-shadow(0 0 10px #888);
+  perspective: 100px;
 }
 
 #carousel__container #logo,
@@ -143,14 +132,11 @@ a {
 #carousel__container .carousel__container-left {
   position: relative;
   display: none;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 62.5%;
-          flex: 0 0 62.5%;
+  flex: 0 0 62.5%;
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  -ms-scroll-snap-type: x mandatory;
-      scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 #carousel__container .carousel__container-left .carousel-text {
@@ -171,16 +157,9 @@ a {
 }
 
 .carousel__container-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 35px;
   font-size: 1.1rem;
   font-family: "Roboto Regular", sans-serif;
@@ -240,8 +219,7 @@ a {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 
 .carousel__container-right input[id="submit"]:hover {
@@ -280,11 +258,9 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 
 .carousel__prev:hover::before {
@@ -314,11 +290,9 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
-  -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  transition-duration: 500ms;
 }
 
 .carousel__next:hover::before {
@@ -353,8 +327,7 @@ figure:nth-child(3) a:last-of-type:hover::before {
     display: block;
     top: -25px;
     left: 0;
-    -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    transform: scale(0.4);
     z-index: 2;
   }
   #carousel__container .carousel-subtext {
@@ -369,8 +342,6 @@ figure:nth-child(3) a:last-of-type:hover::before {
     color: #eee;
   }
   #carousel__container .carousel__container-left {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
