@@ -52,7 +52,7 @@ a {
   /* here's the magic */
   display: none;
   position: absolute;
-  top: -60px;
+  top: -40px;
   left: -40px;
   background-color: #010;
   color: white;
