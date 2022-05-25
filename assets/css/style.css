@@ -227,7 +227,6 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 2rem;
   color: white;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
@@ -262,7 +261,6 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 2rem;
   color: white;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
