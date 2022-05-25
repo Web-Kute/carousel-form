@@ -1,0 +1,12 @@
+@mixin bg-btn {
+  position: absolute;
+  top: 400px;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  border: 1px solid $fadeWhiteColor;
+}
