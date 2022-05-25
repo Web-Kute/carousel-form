@@ -343,7 +343,7 @@ figure:nth-child(3) a:last-of-type:hover::before {
     display: flex;
   }
   #carousel__container .carousel__container-right h2 {
-    /*letter-spacing: -2px;*/
+    letter-spacing: -2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
