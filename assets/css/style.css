@@ -96,7 +96,6 @@ a {
 
 .tooltip::before {
   content: attr(data-text);
-  /* here's the magic */
   display: none;
   position: absolute;
   top: -35px;
